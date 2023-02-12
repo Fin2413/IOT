@@ -1,0 +1,25 @@
+body{
+    background-color: #fff;
+}
+
+.navbar{
+    background-color: #fff;
+}
+
+.nav-link{
+    color: black;
+    margin-left: 5px;
+}
+
+.nav-link:hover{
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+.navbar-logo{
+    width: 120px;
+}
+
+.img-carousel{
+    opacity: 0.8;
+}
