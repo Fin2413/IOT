@@ -47,39 +47,47 @@
               <a class="nav-link" href="mailto: logo@logo.kz">logo@logo.kz</a>
             </li>
           </ul>
-          <div class="modal-dialog modal-dialog-centered">
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Оставить заявку
-            </button>
-          </div>
+
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Оставить заявку
+          </button>
         </div>
       </div>
     </nav>
 
-    <!-- Кнопка-триггер модального окна -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-      Запустить модальное окно со статическим фоном
-    </button>
-
     <!-- Модальное окно -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
       aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Заголовок модального окна</h5>
+            <h5 class="modal-title" id="staticBackdropLabel">Оставить заявку</h5>
+
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
           </div>
           <div class="modal-body">
-            ...
+            <span class="modal-text mb-10">Чтобы получить консультацию по тарифу</span>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Выберите тариф</option>
+              <option value="1">Эконом</option>
+              <option value="2">Оптимальный</option>
+              <option value="3">Премиум</option>
+            </select>
+            <form>
+              <div class="mb-3">
+                <input  type="text" class="form-control" id="exampleFormControlInput1" required placeholder="Имя">
+                <input  type="tel" name="tel" class="form-control" id="exampleFormControlInput1" required placeholder="Телефон">
+                <input  type="email" name="email" class="form-control" id="exampleFormControlInput1" required placeholder="Email">
+              </div>
+            </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-            <button type="button" class="btn btn-primary">Понял</button>
+            <button type="button" class="btn btn-primary">Оставить заявку</button>
           </div>
         </div>
       </div>
     </div>
+
   </header>
   <!-- /.header -->
 

@@ -23,3 +23,20 @@ body{
 .img-carousel{
     opacity: 0.8;
 }
+
+.modal-text{
+    margin-bottom: 10px;
+}
+
+.form-select{
+    margin-top: 20px;
+}
+
+.form-control{
+    margin-top: 20px;
+}
+
+.btn-primary{
+    align-items: center;
+    margin: 0 auto;
+}
