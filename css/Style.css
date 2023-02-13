@@ -1,42 +1,186 @@
-body{
+body {
     background-color: #fff;
 }
 
-.navbar{
+.navbar {
     background-color: #fff;
 }
 
-.nav-link{
+.navbar-nav-link{
+    margin-left: 80px;
+}
+
+.nav-link {
     color: black;
     margin-left: 5px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     transition: 0.5s;
     font-weight: 700;
 }
 
-.navbar-logo{
+.navbar-logo {
     width: 120px;
 }
 
-.img-carousel{
-    opacity: 0.8;
+.img-carousel {
+    opacity: 0.7;
 }
 
-.modal-text{
+.modal-text {
     margin-bottom: 10px;
 }
 
-.form-select{
+.form-select {
     margin-top: 20px;
 }
 
-.form-control{
+.form-control {
     margin-top: 20px;
 }
 
-.btn-primary{
+.btn-primary {
     align-items: center;
     margin: 0 auto;
+}
+
+.section {
+    margin-top: -60px;
+}
+
+.section-img {
+    z-index: 0;
+}
+
+.section-title {
+    margin-top: -850px;
+    margin-bottom: 20px;
+    z-index: 10;
+}
+
+.btn-primary-safe {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    margin-top: 20px;
+    margin-right: 20px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.img-fluid {
+    margin-top: 30px;
+    width: 70px;
+}
+
+.card-four {
+    margin-top: -20px;
+    margin-left: -330px;
+    s
+}
+
+.card-three {
+    margin-top: -20px;
+}
+
+.lider {
+    margin-top: 220px;
+    margin-bottom: 30px;
+}
+
+.lider-title {
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lider-text {
+    text-align: center;
+    font-size: 20px;
+}
+
+.cards-lider {
+    margin-left: 170px;
+}
+
+.img-fluid-card {
+    margin-top: 10px;
+    width: 150px;
+}
+
+.img-fluid-card1 {
+    margin-top: 15px;
+    width: 110px;
+}
+
+.img-fluid-card3 {
+    margin-top: 15px;
+    width: 100px;
+}
+
+.img-fluid-card4 {
+    margin-top: 5px;
+    width: 150px;
+}
+
+.img-fluid-card2 {
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 120px;
+}
+
+.tarif{
+    margin-bottom: 50px;
+    background-image: url(../img/image/1.png);
+}
+
+.tarif-title {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.card-price-group{
+    border: 1px black solid;
+    height: 960px;
+    background-color: white;
+    box-shadow: 5px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card-title-price{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.card-img-top{
+    width: 150px;
+    margin: 0 auto;
+}
+
+.card-subtitle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-price{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.card-footer{
+    background-color: white;
+    margin: 0 auto;
+}
+
+.btn-primary-card{
+    margin-bottom: 20px;
 }

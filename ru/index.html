@@ -22,13 +22,10 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
             <li class="nav-item">
-              <a class="nav-link active"" href=" #">Стоимость</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Тарифы</a>
+              <a class="nav-link" href="#tarif">Тарифы</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="#" role="button">
+              <a class="nav-link" href="#lider" role="button">
                 Преимущества
               </a>
             </li>
@@ -38,8 +35,11 @@
             <li class="nav-item">
               <a href="#" class="nav-link">Контакты</a>
             </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Интернет-магазин</a>
+            </li>
           </ul>
-          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll mt-3" style="--bs-scroll-height: 100px;">
+          <ul class="navbar-nav navbar-nav-link me-auto my-2 my-lg-0 navbar-nav-scroll mt-3" style="--bs-scroll-height: 100px;">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="tel: +777855555555">+7 778 555 55 55</a>
             </li>
@@ -75,9 +75,11 @@
             </select>
             <form>
               <div class="mb-3">
-                <input  type="text" class="form-control" id="exampleFormControlInput1" required placeholder="Имя">
-                <input  type="tel" name="tel" class="form-control" id="exampleFormControlInput1" required placeholder="Телефон">
-                <input  type="email" name="email" class="form-control" id="exampleFormControlInput1" required placeholder="Email">
+                <input type="text" class="form-control" id="exampleFormControlInput1" required placeholder="Имя">
+                <input type="tel" name="tel" class="form-control" id="exampleFormControlInput1" required
+                  placeholder="Телефон">
+                <input type="email" name="email" class="form-control" id="exampleFormControlInput1" required
+                  placeholder="Email">
               </div>
             </form>
           </div>
@@ -87,25 +89,308 @@
         </div>
       </div>
     </div>
-
   </header>
   <!-- /.header -->
 
-  <div class="conteiner">
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../img/image/1.png" class="d-block w-100 img-carousel" data-bs-interval="5000" alt="...">
+  <section class="section">
+    <img src="../img/image/18907-1.png" alt="" class="section-img">
+    <div class="container">
+      <h1 class="section-title">IT‑аутсорсинг и <br> обслуживание офисов</h1>
+      <ul>
+        <li>Оперативное решение IT‑проблем</li>
+        <li>Разовое и регулярное обслуживание техники</li>
+        <li>Выезд и удалённое обслуживание</li>
+        <li>Подходит для малых и средних компаний</li>
+      </ul>
+      <button type="button" class="btn btn-primary btn-primary-safe" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Рассчитать стоймость
+      </button>
+      <button type="button" class="btn btn-outline-primary btn-primary-safe">Узнать больше о It-аутсорсинге</button>
+
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col-xl-3">
+          <div class="card" style="max-width: 320px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../img/Icon/rocket.255x256.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Оперативность</h5>
+                  <p class="card-text">Оперативно решаем задачи и проблемы</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="../img/image/2.jpg" class="d-block w-100 img-carousel" data-bs-interval="5000" alt="...">
+        <div class="col">
+          <div class="card" style="max-width: 320px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../img/Icon/medal-gold-winner-2.247x256.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Актуальность</h5>
+                  <p class="card-text">Используем лидирующие решения IT‑обслуживания</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="../img/image/1.png" class="d-block w-100 img-carousel" data-bs-interval="5000" alt="...">
+        <div class="col">
+          <div class="card card-three" style="max-width: 320px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../img/Icon/pound-coin.256x245.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Цена и качество</h5>
+                  <p class="card-text">Цена и качество Вы экономите на оборудовании и услугах</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col card-four">
+          <div class="card" style="max-width: 320px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../img/Icon/professional-employee.256x256.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Профессионализм</h5>
+                  <p class="card-text">Мы решам широкий спектр вопросов</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- /.section -->
+
+  <section class="lider" id="lider">
+    <div class="container">
+      <h1 class="lider-title">Почему выбирают нас</h1>
+      <p class="lider-text">Мы предоставляем лучший IT‑сервис в городах Казахстана</p>
+
+      <!--card-->
+      <div class="cards-lider">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card cards" style="max-width: 450px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../img/Icon/Untitled-1.png" class="img-fluid-card rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Профессионализм</h5>
+                    <p class="card-text">Мы решам широкий спектр вопросов, от настройки оборудования, до проведения
+                      ремонтных мероприятий</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="max-width: 450px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../img/Icon/Untitled-2.png" class="img-fluid-card rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Экономичность</h5>
+                    <p class="card-text">Снижаем Ваши затраты на содержание штата техподдержки, приобретение техники и
+                      программного обеспечения</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col cards">
+            <div class="card" style="max-width: 450px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../img/Icon/quality-check.252x256.png" class="img-fluid-card1 rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Качество</h5>
+                    <p class="card-text">Мы гарантируем высокое качество наших услуг и стремимся к долгосрочному и
+                      регулярному сотрудничеству с Вами</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="max-width: 450px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../img/Icon/graphic-chart.256x218.png" class="img-fluid-card2 rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Продуктивность</h5>
+                    <p class="card-text">Повышаем продуктивность работы Вашей компании, путем обеспечения бесперебойной
+                      работы компьютерного оборудования, а также его оптимизации</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card cards" style="max-width: 450px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../img/Icon/rocket.255x256.png" class="img-fluid-card3 rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Оперативность</h5>
+                    <p class="card-text">Оперативно реагируем на Ваши запросы и в кратчайшие сроки решаем возникающие
+                      проблемы</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="max-width: 450px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../img/Icon/Untitled-3.png" class="img-fluid-card4 rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Спокойствие</h5>
+                    <p class="card-text">Берем на себя все заботы по IT‑поддержке Вашей компании. Мы несем полную
+                      ответственность перед клиентами за проделанную работу</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.lider -->
+
+  <section class="tarif" id="tarif">
+    <div class="container">
+      <h2 class="tarif-title">
+        Выберите подходящий Вам тариф
+      </h2>
+      <!-- /.tarif-title -->
+      <div class="row">
+        <div class="card-group">
+          <div class="col-xl-4">
+            <div class="card card-price-group">
+              <h5 class="card-title-price">Эконом</h5>
+              <img src="../img/Icon/3.png" class="card-img-top" alt="...">
+              <p class="card-subtitle">Для решения базовых IT‑задач</p>
+              <hr>
+              <p class="card-price">5 000 ₸ / рабочее место</p>
+              <hr>
+              <div class="card-body">
+                <ul>
+                  <li class="card-list">От 5 рабочих мест</li>
+                  <li class="card-list">Обслуживание ПК и офисных программ</li>
+                  <li class="card-list">Удалённое решение проблем</li>
+                  <li class="card-list">До 2‑х экстренных выездов в месяц</li>
+                  <li class="card-list">Поддержка онлайн‑банк систем</li>
+                  <li class="card-list">Поддержка 1‑го принтера или МФУ</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-primary btn-primary-card" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop">
+                  Оставить заявку
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="card card-price-group">
+              <h5 class="card-title-price">Оптимальный</h5>
+              <img src="../img/Icon/2.png" class="card-img-top" alt="...">
+              <p class="card-subtitle">Для решения основных IT‑задач</p>
+              <hr>
+              <p class="card-price">7 000 ₸ / рабочее место</p>
+              <hr>
+              <div class="card-body">
+                <ul>
+                  <li class="card-list">От 10 рабочих мест</li>
+                  <li class="card-list">Обслуживание ПК и офисных программ</li>
+                  <li class="card-list">Удалённое решение проблем</li>
+                  <li class="card-list">До 4‑х экстренных выездов в месяц</li>
+                  <li class="card-list">Поддержка онлайн-банк систем</li>
+                  <li class="card-list">Обслуживание 2‑х принтеров или МФУ</li>
+                  <li class="card-list">Обслуживание телефонов и IP‑АТС</li>
+                  <li class="card-list">Администрирование 1‑го сервера</li>
+                  <li class="card-list">Поддержка работы локальной сети</li>
+                  <li class="card-list">Поддержка работы Wi‑Fi сети</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-primary btn-primary-card" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop">
+                  Оставить заявку
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="card card-price-group">
+              <h5 class="card-title-price">Премиум</h5>
+              <img src="../img/Icon/1.png" class="card-img-top" alt="...">
+              <p class="card-subtitle">Для решения любых IT‑задач</p>
+              <hr>
+              <p class="card-price">10 000 ₸ / рабочее место</p>
+              <hr>
+              <div class="card-body">
+                <ul>
+                  <li class="card-list">От 10 рабочих мест</li>
+                  <li class="card-list">Обслуживание ПК и офисных программ</li>
+                  <li class="card-list">Удалённое решение проблем</li>
+                  <li class="card-list">До 8‑ми экстренных выездов в месяц</li>
+                  <li class="card-list">Поддержка онлайн‑банк систем</li>
+                  <li class="card-list">Обслуживание всех принтеров и МФУ</li>
+                  <li class="card-list">Администрирование IP‑АТС и телефонов</li>
+                  <li class="card-list">Администрирование физических серверов</li>
+                  <li class="card-list">Поддержка работы локальной сети</li>
+                  <li class="card-list">Поддержка работы Wi‑Fi сети</li>
+                  <li class="card-list">Поддержка систем видеонаблюдения</li>
+                  <li class="card-list">Администрирование виртуальных серверов</li>
+                  <li class="card-list">Поддержка систем видеоконференцсвязи</li>
+                  <li class="card-list">Администрирование почтового сервера</li>
+                  <li class="card-list">Функции IT‑директора</li>
+                  <li class="card-list">Прочие задачи</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-primary btn-primary-card" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop">
+                  Оставить заявку
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- /.container -->
+  </section>
+  <!-- /.traif -->
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
