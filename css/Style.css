@@ -77,9 +77,8 @@ body {
 }
 
 .card-four {
-    margin-top: -20px;
+    margin-top: -16px;
     margin-left: -330px;
-    s
 }
 
 .card-three {
@@ -183,4 +182,44 @@ body {
 
 .btn-primary-card{
     margin-bottom: 20px;
+}
+
+.best{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.best-title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.card-best{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-title-best{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.best-list{
+    margin-left: 80px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.best-list1{
+    margin-left: 150px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.best-list-img{
+    margin-top: -3px;
+    margin-right: 10px;
+    width: 35px;
+    height: 30px;
 }
