@@ -8,6 +8,9 @@
   <title>It Аутсорс</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/Style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -35,9 +38,9 @@
             <li class="nav-item">
               <a href="#contacts" class="nav-link">Контакты</a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
               <a href="#" class="nav-link">Интернет-магазин</a>
-            </li>
+            </li>-->
           </ul>
           <ul class="navbar-nav navbar-nav-link me-auto my-2 my-lg-0 navbar-nav-scroll mt-3"
             style="--bs-scroll-height: 100px;">
@@ -46,8 +49,8 @@
                   class="contacts-time-img2"> +7 778 555 55 55</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="mailto: logo@logo.kz"> <img src="../img/Icon/mail.png" alt=""
-                  class="contacts-time-img2"> logo@logo.kz</a>
+              <a class="nav-link" href="mailto: info@ito.kz"> <img src="../img/Icon/mail.png" alt=""
+                  class="contacts-time-img2"> info@ito.kz</a>
             </li>
           </ul>
 
@@ -70,11 +73,13 @@
           </div>
           <div class="modal-body">
             <span class="modal-text mb-10">Чтобы получить консультацию по тарифу</span>
-            <select class="form-select" aria-label="Default select example">
-              <option selected>Выберите тариф</option>
-              <option value="1">Эконом</option>
-              <option value="2">Оптимальный</option>
-              <option value="3">Премиум</option>
+            <select class="form-select" aria-label="Default select example" Style="  font-family: 'Oswald', sans-serif;
+            font-weight: 600;
+            letter-spacing: 1.5px;">
+              <option selected class="form-text">Выберите тариф</option>
+              <option value="1" class="form-text">Эконом</option>
+              <option value="2" class="form-text">Оптимальный</option>
+              <option value="3" class="form-text">Премиум</option>
             </select>
             <form>
               <div class="mb-3">
@@ -91,6 +96,7 @@
           </div>
         </div>
       </div>
+        <!-- Модальное окно -->
     </div>
   </header>
   <!-- /.header -->
@@ -100,16 +106,15 @@
     <div class="container">
       <h1 class="section-title">IT‑аутсорсинг и <br> обслуживание офисов</h1>
       <ul>
-        <li>Оперативное решение IT‑проблем</li>
-        <li>Разовое и регулярное обслуживание техники</li>
-        <li>Выезд и удалённое обслуживание</li>
-        <li>Подходит для малых и средних компаний</li>
+        <li class="section-list"> <img src="../img/Icon/yes.png" alt="" class="section-img-list"> Оперативное решение IT‑проблем</li>
+        <li class="section-list"> <img src="../img/Icon/yes.png" alt="" class="section-img-list"> Разовое и регулярное обслуживание техники</li>
+        <li class="section-list"> <img src="../img/Icon/yes.png" alt="" class="section-img-list"> Выезд и удалённое обслуживание</li>
+        <li class="section-list"> <img src="../img/Icon/yes.png" alt="" class="section-img-list"> Подходит для малых и средних компаний</li>
       </ul>
-      <button type="button" class="btn btn-primary btn-primary-safe" data-bs-toggle="modal"
-        data-bs-target="#staticBackdrop">
+      <button class="btn btn-primary btn-primary-safe" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
         Рассчитать стоймость
       </button>
-      <button type="button" class="btn btn-outline-primary btn-primary-safe">Узнать больше о It-аутсорсинге</button>
+      <button type="button" class="btn btn-outline-primary btn-primary-safe"><a class="best-btn" href="#best">Узнать больше о It-аутсорсинге</a></button>
 
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col-xl-3">
@@ -175,6 +180,139 @@
       </div>
   </section>
   <!-- /.section -->
+
+
+  <!--Модельное окно для рассчета-->
+
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content modal-content-calc">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 modal-title-calc" id="exampleModalToggleLabel">Калькулятор стоимости IT‑аутсорсинга</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body modal-body-calc">
+          <img src="../img/Icon/computer.png" alt="" class="modal-calc-img">
+        </div>
+        <div class="modal-body modal-body-calc">
+          Укажите количество компьютеров и серверов в Вашей компании
+        </div>
+        <div class="modal-body modal-body-calc1">
+          При выборе количества компьютеров к «компьютерам» Вы так же можете отнести ноутбуки, моноблоки и мини ПК, используемые Вами в компании
+        </div>
+        <div class="modal-body modal-body-calc">
+          <input type="number" class="form-control form-control-calc2" id="exampleFormControlInput1" placeholder="Компьютеры:" style="margin-bottom: 20px;">  
+          <input type="number" class="form-control form-control-calc3" id="exampleFormControlInput1" placeholder="Серверы:" style="margin-bottom: 20px;">  
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Далее</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 modal-title-calc" id="exampleModalToggleLabel2">Калькулятор стоимости IT‑аутсорсинга</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body modal-body-calc">
+          <img src="../img/Icon/print.png" alt="" class="modal-calc-img">
+        </div>
+        <div class="modal-body modal-body-calc">
+          Укажите количество используемых принтеров/МФУ форматов А3, А4
+        </div>
+        <div class="modal-body modal-body-calc">
+          <input type="number" class="form-control form-control-calc2" id="exampleFormControlInput1" placeholder="Принтеры/МФУ А4:" style="margin-bottom: 20px;">  
+          <input type="number" class="form-control form-control-calc3" id="exampleFormControlInput1" placeholder="Принтеры/МФУ А3:" style="margin-bottom: 20px;">  
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Назад</button>
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal">Далее</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 modal-title-calc" id="exampleModalToggleLabel2">Калькулятор стоимости IT‑аутсорсинга</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body modal-body-calc">
+          <img src="../img/Icon/servic.png" alt="" class="modal-calc-img">
+        </div>
+        <div class="modal-body modal-body-calc">
+          Укажите дополнительные сервисы, используемые в Вашей ИТ‑инфраструктуре
+        </div>
+        <div class="modal-body modal-body-calc3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Аналоговая телефония
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+            <label class="form-check-label" for="flexCheckChecked">
+              IP-телефония
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+            <label class="form-check-label" for="flexCheckChecked">
+              Видеонаблюдение
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+            <label class="form-check-label" for="flexCheckChecked">
+              Wi-Fi
+            </label>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Назад</button>
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal">Далее</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content modal-content-calc">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 modal-title-calc" id="exampleModalToggleLabel">Калькулятор стоимости IT‑аутсорсинга</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body modal-body-calc">
+          <img src="../img/Icon/like.png" alt="" class="modal-calc-img">
+        </div>
+        <div class="modal-body modal-body-calc">
+          Введите Ваши данные для коммерческого предложения
+        </div>
+        <div class="modal-body modal-body-calc1">
+          Предложение будет отправлено на Вашу почту
+        </div>
+        <div class="modal-body modal-body-calc">
+          <input type="text" class="form-control" id="exampleFormControlInput1" required placeholder="Имя">
+          <input type="text" class="form-control" id="exampleFormControlInput1" required placeholder="Компания">
+                <input type="tel" name="tel" class="form-control" id="exampleFormControlInput1" required
+                  placeholder="Телефон">
+                <input type="email" name="email" class="form-control" id="exampleFormControlInput1" required
+                  placeholder="Email">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal">Назад</button>
+          <button type="button" class="btn btn-primary">Оставить заявку</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Модельное окно для рассчета-->
+
 
   <section class="lider" id="lider">
     <div class="container">
@@ -305,12 +443,12 @@
               <hr>
               <div class="card-body">
                 <ul>
-                  <li class="card-list">От 5 рабочих мест</li>
-                  <li class="card-list">Обслуживание ПК и офисных программ</li>
-                  <li class="card-list">Удалённое решение проблем</li>
-                  <li class="card-list">До 2‑х экстренных выездов в месяц</li>
-                  <li class="card-list">Администрирование Bitrix24</li>
-                  <li class="card-list">Поддержка 1‑го принтера или МФУ</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> От 5 рабочих мест</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Обслуживание ПК и офисных программ</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Удалённое решение проблем</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> До 2‑х экстренных выездов в месяц</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Администрирование Bitrix24</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Поддержка 1‑го принтера или МФУ</li>
                 </ul>
               </div>
               <div class="card-footer">
@@ -331,16 +469,16 @@
               <hr>
               <div class="card-body">
                 <ul>
-                  <li class="card-list">От 10 рабочих мест</li>
-                  <li class="card-list">Обслуживание ПК и офисных программ</li>
-                  <li class="card-list">Удалённое решение проблем</li>
-                  <li class="card-list">До 4‑х экстренных выездов в месяц</li>
-                  <li class="card-list">Администрирование Bitrix24</li>
-                  <li class="card-list">Обслуживание 2‑х принтеров или МФУ</li>
-                  <li class="card-list">Обслуживание телефонов и IP‑АТС</li>
-                  <li class="card-list">Администрирование 1‑го сервера</li>
-                  <li class="card-list">Поддержка работы локальной сети</li>
-                  <li class="card-list">Поддержка работы Wi‑Fi сети</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> От 10 рабочих мест</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Обслуживание ПК и офисных программ</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Удалённое решение проблем</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> До 4‑х экстренных выездов в месяц</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Администрирование Bitrix24</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Обслуживание 2‑х принтеров или МФУ</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Обслуживание телефонов и IP‑АТС</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Администрирование 1‑го сервера</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Поддержка работы локальной сети</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Поддержка работы Wi‑Fi сети</li>
                 </ul>
               </div>
               <div class="card-footer">
@@ -361,22 +499,22 @@
               <hr>
               <div class="card-body">
                 <ul>
-                  <li class="card-list">От 10 рабочих мест</li>
-                  <li class="card-list">Обслуживание ПК и офисных программ</li>
-                  <li class="card-list">Удалённое решение проблем</li>
-                  <li class="card-list">До 8‑ми экстренных выездов в месяц</li>
-                  <li class="card-list">Доработка и Администрирование Bitrix24</li>
-                  <li class="card-list">Обслуживание всех принтеров и МФУ</li>
-                  <li class="card-list">Администрирование IP‑АТС и телефонов</li>
-                  <li class="card-list">Администрирование физических серверов</li>
-                  <li class="card-list">Поддержка работы локальной сети</li>
-                  <li class="card-list">Поддержка работы Wi‑Fi сети</li>
-                  <li class="card-list">Поддержка систем видеонаблюдения</li>
-                  <li class="card-list">Администрирование виртуальных серверов</li>
-                  <li class="card-list">Поддержка систем видеоконференцсвязи</li>
-                  <li class="card-list">Администрирование почтового сервера</li>
-                  <li class="card-list">Функции IT‑директора</li>
-                  <li class="card-list">Прочие задачи</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> От 10 рабочих мест</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Обслуживание ПК и офисных программ</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Удалённое решение проблем</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> До 8‑ми экстренных выездов в месяц</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Доработка и Администрирование Bitrix24</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Обслуживание всех принтеров и МФУ</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Администрирование IP‑АТС и телефонов</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Администрирование физических серверов</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Поддержка работы локальной сети</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Поддержка работы Wi‑Fi сети</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Поддержка систем видеонаблюдения</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Администрирование виртуальных серверов</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Поддержка систем видеоконференцсвязи</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Администрирование почтового сервера</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Функции IT‑директора</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Прочие задачи</li>
                 </ul>
               </div>
               <div class="card-footer">
@@ -395,7 +533,7 @@
   </section>
   <!-- /.traif -->
 
-  <section class="best">
+  <section class="best" id="best">
     <div class="container">
       <h3 class="best-title">Чем IT‑аутсорсинг лучше?</h3>
       <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -482,8 +620,8 @@
                   alt="" class="contacts-time-img2"> +7 778 555 55 55</a>
             </li>
             <li class="contacts-item">
-              <a class="contacts-link2" href="mailto: logo@logo.kz"> <img src="../img/Icon/mail.png" alt=""
-                  class="contacts-time-img2"> logo@logo.kz</a>
+              <a class="contacts-link2" href="mailto: info@ito.kz"> <img src="../img/Icon/mail.png" alt=""
+                  class="contacts-time-img2"> info@ito.kz</a>
             </li>
           </ul>
 
@@ -491,11 +629,13 @@
             <h5 class="contacts-title2">Свяжитесь с нами</h5>
             <div class="contacts-body">
               <span class="contacts-subtitle">Чтобы получить консультацию</span>
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Выберите тариф</option>
-                <option value="1">Эконом</option>
-                <option value="2">Оптимальный</option>
-                <option value="3">Премиум</option>
+              <select class="form-select" aria-label="Default select example" Style="  font-family: 'Oswald', sans-serif;
+              font-weight: 600;
+              letter-spacing: 1.5px;">
+                <option selected class="form-text">Выберите тариф</option>
+                <option value="1" class="form-text">Эконом</option>
+                <option value="2" class="form-text">Оптимальный</option>
+                <option value="3" class="form-text">Премиум</option>
               </select>
               <form>
                 <div class="mb-3">
@@ -529,7 +669,7 @@
             </div>
             <div class="col">
               <ul class="footer-nav">
-                <p>Клиентам</p>
+                <p class="footer-nav-title">Клиентам</p>
                 <li class="footer-nav-item">
                   <a class="footer-nav-link" href="#tarif"> <img src="../img/Icon/moneyfooter.png" alt=""
                       class="footer-img"> Тарифы</a>
@@ -539,39 +679,39 @@
                     <img src="../img/Icon/like.png" alt="" class="footer-img" style="margin-left: 50px;"> Преимущества
                   </a>
                 </li>
-                <li class="footer-nav-item">
+                <!--<li class="footer-nav-item">
                   <a href="#" class="footer-nav-link"> <img src="../img/Icon/shop.png" alt="" class="footer-img"
                       style="margin-left: 75px;"> Интернет-магазин</a>
-                </li>
+                </li>-->
                 <li class="footer-nav-item">
                   <a href="#" class="footer-nav-link"><img src="../img/Icon/FAQ.png" alt="" class="footer-img"
-                      style="margin-left: 75px;"> Вопросы и ответы</a>
+                      style="margin-left: 81px;"> Вопросы и ответы</a>
                 </li>
               </ul>
             </div>
             <div class="col">
               <ul class="footer-nav">
-                <p>Компания</p>
+                <p class="footer-nav-title">Компания</p>
                 <li class="footer-nav-item">
                   <a href="#" class="footer-nav-link"><img src="../img/Icon/about.png" alt="" class="footer-img"
-                      style="margin-left: 75px;"> О нас</a>
+                      style="margin-left: 65px;"> О нас</a>
                 </li>
                 <li class="footer-nav-item">
                   <a href="#contacts" class="footer-nav-link"> <img src="../img/Icon/contacts.png" alt=""
-                      class="footer-img" style="margin-left: 95px;"> Контакты</a>
+                      class="footer-img" style="margin-left: 100px;"> Контакты</a>
                 </li>
               </ul>
             </div>
             <div class="col">
               <ul class="footer-nav">
-                <p>Мы в соцсетях</p>
+                <p class="footer-nav-title">Мы в соцсетях</p>
                 <li class="footer-nav-item">
                   <a class="footer-nav-link" href="#tarif"> <img src="../img/Icon/telegram.png" alt=""
                       class="footer-img" style="margin-left: 75px;"> Телеграм</a>
                 </li>
                 <li class="footer-nav-item">
                   <a class="footer-nav-link" href="#lider" role="button">
-                    <img src="../img/Icon/instagram.png" alt="" class="footer-img" style="margin-left: 75px;"> Instagram
+                    <img src="../img/Icon/instagram.png" alt="" class="footer-img" style="margin-left: 76px;"> Instagram
                   </a>
                 </li>
               </ul>
@@ -579,7 +719,7 @@
           </div>
         </div>
       </div>
-        <!-- /.container-fluid -->
+      <!-- /.container-fluid -->
   </footer>
   <!-- /.footer -->
 
