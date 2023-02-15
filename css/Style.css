@@ -372,8 +372,25 @@ body {
 
 .footer{
     margin-top: 1270px;
+    margin-bottom: 50px;
 }
 
-.border{
+.footer-img{
+    width: 20px;
+    margin-right: 10px;
+}
 
+.footer-nav-item{
+    list-style-type: none;
+}
+
+.footer-nav-link{
+    margin-left: -150px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer-logo{
+    margin-top: 30px;
+    width: 250px;
 }
