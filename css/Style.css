@@ -223,3 +223,157 @@ body {
     width: 35px;
     height: 30px;
 }
+
+.suppliers{
+    margin-top: 50px;
+}
+
+.title-suppliers{
+    text-align: center;
+    font-size: 40px;
+}
+
+.subtitile-suppliers{
+    text-align: center;
+    font-size: 40px;
+}
+
+.wrapper{
+    position: relative;
+}
+
+.contacts-front{
+    position: absolute;
+    left: 620px;
+    top: 150px;
+    width: 200px;
+    z-index: 3;
+}
+.contacts-back{
+    position: absolute;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.contacts-title{
+    position: absolute;
+    top: 520px;
+    left: 450px;
+    z-index: 2;
+}
+
+.contacts-address{
+    position: absolute;
+    top: 560px;
+    left: 450px;
+    z-index: 2;
+}
+
+.contacts-address-ul{
+    position: absolute;
+    top: 590px;
+    left: 480px;
+    z-index: 2;
+}
+
+.contacts-time-date1{
+    position: absolute;
+    top: 640px;
+    left: 450px;
+    z-index: 2;
+    list-style-type: none;
+}
+
+.contacts-time-date2{
+    position: absolute;
+    top: 680px;
+    left: 490px;
+    z-index: 2;
+    list-style-type: none;
+}
+
+.contacts-time-img{
+    margin-top: -5px;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.contacts-time-img1{
+    margin-top: -5px;
+    width: 20px;
+    height: 26px;
+    margin-right: 5px;
+}
+
+.contacts-time-img2{
+    margin-top: -3px;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.contacts-time-date3{
+    position: absolute;
+    top: 720px;
+    left: 490px;
+    z-index: 2;
+    list-style-type: none;
+}
+
+.contacts-link1{
+    position: absolute;
+    top: 980px;
+    left: 450px;
+    z-index: 2;
+    text-decoration: none;
+}
+
+.contacts-link2{
+    position: absolute;
+    top: 1030px;
+    left: 450px;
+    z-index: 2;
+    text-decoration: none;
+}
+
+.contacts-title2{
+    position: absolute;
+    top: 500px;
+    left: 1140px;
+    z-index: 2;
+}
+
+.contacts-body{
+    position: absolute;
+    top: 550px;
+    left: 1070px;
+    z-index: 2;
+}
+
+.contacts-subtitle{
+    margin-left: 50px;
+
+}
+
+.contacts-footer{
+    position: absolute;
+    top: 830px;
+    left: 1150px;
+    z-index: 2;
+}
+
+.contacts-info{
+    position: absolute;
+    top: 1010px;
+    left: 1150px;
+    z-index: 3;
+}
+
+.footer{
+    margin-top: 1270px;
+}
+
+.border{
+
+}
