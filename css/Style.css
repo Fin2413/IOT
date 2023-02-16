@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -8,6 +13,7 @@ body {
 
 .navbar {
     background-color: #fff;
+    width: 100%;
 }
 
 .navbar-nav-link{
@@ -89,7 +95,8 @@ body {
 }
 
 .section {
-    margin-top: -60px;
+    margin-top: -200px;
+    min-height: 100%;
 }
 
 .section-list{
@@ -168,7 +175,7 @@ body {
 }
 
 .lider {
-    margin-top: 220px;
+    margin-top: 190px;
     margin-bottom: 30px;
 }
 
@@ -219,7 +226,7 @@ body {
     width: 120px;
 }
 
-.tarif{
+.traif{
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -227,10 +234,10 @@ body {
     background-image: url(../img/image/1.png);
 }
 
-.tarif-title {
+.traif-title {
     font-size: 45px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 135px;
     margin-bottom: 30px;
 }
 
@@ -298,7 +305,7 @@ body {
 }
 
 .best{
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 30px;
 }
 
@@ -372,6 +379,10 @@ body {
 
 .wrapper{
     position: relative;
+}
+
+.contacts{
+    margin-top: -20px;
 }
 
 .contacts-front{
@@ -549,14 +560,14 @@ body {
     letter-spacing: 1.5px;
     font-size: 20px;
     position: absolute;
-    top: 1010px;
-    left: 1100px;
+    top: 440px;
+    left: 50px;
     z-index: 3;
 }
 
 .footer{
-    margin-top: 1270px;
-    margin-bottom: 50px;
+    margin-top: 1280px;
+    margin-bottom: 30px;
 }
 
 .footer-img{
@@ -657,4 +668,50 @@ body {
 .best-btn:hover{
     transition: 0.5s;
     color: #fff;
+}
+
+.form-contacts{
+    width: 350px;
+    margin-bottom: -15px;
+}
+
+.form-check-contacts{
+    margin-top: 30px;
+    margin-left: -70px;
+}
+
+.btn-contacts{
+    margin-left: 80px;
+}
+
+.form-check-calc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-check-box{
+    margin-left: -90px;
+}
+
+.form-check-box1{
+    margin-left: -100px;
+}
+
+.nav-link-ru{
+    width: 20px;
+    height: 20px;
+}
+
+.btn-drop{
+    width: 55px;
+    height: 40px;
+    border: none;
+}
+
+.drop{
+    width: 50px;
+}
+
+.btn-primary-leave{
+    margin-left: 150px;
 }

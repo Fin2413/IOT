@@ -1,12 +1,833 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="EN">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IT Outsourcing</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITO</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="../css/Style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-    
+  <header class="header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="../img/logo.png" alt="logo" class="navbar-logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+            <li class="nav-item">
+              <a class="nav-link" href="#traif">Rates</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#lider" role="button">
+                Advantages
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <!--<li class="nav-item">
+              <a href="#" class="nav-link">Online store</a>
+            </li>-->
+            <!-- Пример отдельной кнопки danger -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-drop dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <img src="../img/Icon/usa.png" alt="" class="nav-link-ru">
+              </button>
+              <ul class="dropdown-menu" style="--bs-dropdown-min-width: 2rem">
+                <li><a class="dropdown-item"" href="../index.html"><img src="../img/Icon/ru.png" alt="" class="nav-link-ru"></a></li>
+                <li><a class="dropdown-item"" href="../kz/Index.html"><img src="../img/Icon/kz.png" alt="" class="nav-link-ru"></a></li>
+                <li>
+              </ul>
+            </div>
+          </ul>
+          <ul class="navbar-nav navbar-nav-link me-auto my-2 my-lg-0 navbar-nav-scroll mt-3"
+            style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="tel: +777855555555"><img src="../img/Icon/phone.png" alt=""
+                  class="contacts-time-img2"> +7 778 555 55 55</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto: info@ito.kz"> <img src="../img/Icon/mail.png" alt=""
+                  class="contacts-time-img2"> info@ito.kz</a>
+            </li>
+          </ul>
+
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+            style="margin-left: 20px;">
+            Leave a request
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Модальное окно -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Leave a request</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+          </div>
+          <div class="modal-body">
+            <form class="form row g-3" id="form">
+              <span class="modal-text mb-10" style="margin-left: 165px;">For pricing advice</span>
+              <div class="">
+                <select class="form-select form-text" id="validationDefault04" required>
+                  <option selected disabled value="">Choose a plan</option>
+                  <option value="1" class="form-text">Economy</option>
+                  <option value="2" class="form-text">Optimal</option>
+                  <option value="3" class="form-text">Premium</option>
+                </select>
+              </div>
+              <div>
+                <input type="Name" class="form-control" id="validationDefault01" placeholder="Name*" required>
+              </div>
+              <div>
+                <input type="tel" class="form-control" id="validationDefault02" placeholder="Telephone*" required>
+              </div>
+              <div>
+                <input type="Email" class="form-control" id="validationDefault03" placeholder="E-mail*" required>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="invalidCheck2" required>
+                  <label class="form-check-label" for="invalidCheck2">
+                    Accept the terms and agreements
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-primary btn-primary-leave" type="submit">Leave a request</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Модальное окно -->
+      </div>
+  </header>
+  <!-- /.header -->
+
+  <section class="section">
+    <img src="../img/image/18907-1.png" alt="" class="section-img">
+    <div class="container">
+      <h1 class="section-title">IT outsourcing and <br> office maintenance</h1>
+      <ul>
+        <li class="section-list"> <img src="../img/Icon/yes.png" alt="" class="section-img-list"> Operational solution IT problems</li>
+        <li class="section-list"> <img src="../img/Icon/yes.png" alt="" class="section-img-list"> One-time and regular maintenance of equipment</li>
+        <li class="section-list"> <img src="../img/Icon/yes.png" alt="" class="section-img-list"> Departure and remote service</li>
+        <li class="section-list"> <img src="../img/Icon/yes.png" alt="" class="section-img-list"> Suitable for small and medium companies</li>
+      </ul>
+      <button class="btn btn-primary btn-primary-safe" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
+        Calculate the cost
+      </button>
+      <button type="button" class="btn btn-outline-primary btn-primary-safe"><a class="best-btn" href="#best">Learn more about IT outsourcing</a></button>
+
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col-xl-3">
+          <div class="card" style="max-width: 320px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../img/Icon/rocket.255x256.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Efficiency</h5>
+                  <p class="card-text">We promptly solve tasks and problems</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="max-width: 320px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../img/Icon/medal-gold-winner-2.247x256.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Relevance</h5>
+                  <p class="card-text">We use leading IT service solutions</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-three" style="max-width: 320px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../img/Icon/pound-coin.256x245.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title" style="margin-left: -15px;">Price and quality</h5>
+                  <p class="card-text" style="margin-left: -15px;">Price and quality You save on equipment and services</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col card-four">
+          <div class="card" style="max-width: 320px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../img/Icon/professional-employee.256x256.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Professionalism</h5>
+                  <p class="card-text">We solve a wide range of issues</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /.section -->
+
+
+  <!--Модельное окно для рассчета-->
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content modal-content-calc">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 modal-title-calc" style="margin-left: 100px;" id="exampleModalToggleLabel">Cost calculator
+            IT outsourcing</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body modal-body-calc">
+          <img src="../img/Icon/computer.png" alt="" class="modal-calc-img">
+        </div>
+        <div class="modal-body modal-body-calc">
+            Specify the number of computers and servers in your company
+        </div>
+        <div class="modal-body modal-body-calc1">
+            When choosing the number of computers, you can also include laptops, monoblocks and mini PCs as “computers”,
+            used by you in the company
+        </div>
+        <div class="modal-body modal-body-calc">
+          <input type="number" class="form-control form-control-calc2" id="validationDefault01"
+            placeholder="Computers:*" required style="margin-bottom: 20px;">
+          <input type="number" class="form-control form-control-calc3" id="validationDefault01" placeholder="Servers:*"
+            required style="margin-bottom: 20px;">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" type="submit" data-bs-target="#exampleModalToggle2"
+            data-bs-toggle="modal">Next</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 modal-title-calc" style="margin-left: 100px;" id="exampleModalToggleLabel2">Cost calculator
+            IT outsourcing</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body modal-body-calc">
+          <img src="../img/Icon/print.png" alt="" class="modal-calc-img">
+        </div>
+        <div class="modal-body modal-body-calc">
+            Specify the number of used printers / MFPs of A3, A4 formats
+        </div>
+        <div class="modal-body modal-body-calc">
+          <input type="number" class="form-control form-control-calc2" id="exampleFormControlInput1"
+            placeholder="Printers / MFP A4:" style="margin-bottom: 20px;">
+          <input type="number" class="form-control form-control-calc3" id="exampleFormControlInput1"
+            placeholder="Printers / MFP A3:" style="margin-bottom: 20px;">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back</button>
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal">Next</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 modal-title-calc" style="margin-left: 100px;" id="exampleModalToggleLabel2">Cost calculator
+            IT outsourcing</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body modal-body-calc">
+          <img src="../img/Icon/servic.png" alt="" class="modal-calc-img">
+        </div>
+        <div class="modal-body modal-body-calc">
+            Specify additional services used in your IT infrastructure
+        </div>
+        <div class="modal-body modal-body-calc3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Analog telephony
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+            <label class="form-check-label" for="flexCheckChecked">
+                IP telephony
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+            <label class="form-check-label" for="flexCheckChecked">
+                CCTV
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+            <label class="form-check-label" for="flexCheckChecked">
+              Wi-Fi
+            </label>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Back</button>
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal">Next</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content modal-content-calc">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 modal-title-calc" style="margin-left: 100px;" id="exampleModalToggleLabel">Cost calculator
+            IT outsourcing</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body modal-body-calc">
+          <img src="../img/Icon/like.png" alt="" class="modal-calc-img">
+        </div>
+        <div class="modal-body modal-body-calc">
+            Enter your data for a commercial offer
+        </div>
+        <div class="modal-body modal-body-calc1">
+            The offer will be sent to your email
+        </div>
+        <div class="modal-body modal-body-calc">
+          <form class="form row g-3" id="form">
+
+            <div>
+              <input type="Name" class="form-control" id="validationDefault01" placeholder="Name*" required>
+            </div>
+            <div>
+              <input type="Name" class="form-control" id="validationDefault02" placeholder="Company*" required>
+            </div>
+            <div>
+              <input type="tel" class="form-control" id="validationDefault03" placeholder="Telephone*" required>
+            </div>
+            <div>
+              <input type="Email" class="form-control" id="validationDefault04" placeholder="E-mail*" required>
+            </div>
+            <div class="col-12">
+              <div class="form-check form-check-calc">
+                <input class="form-check-input form-check-box" type="checkbox" value="" id="invalidCheck2" required
+                  style="margin-left: -50px;">
+                <label class="form-check-label form-check-box1" for="invalidCheck2" style="margin-left: -120px;">
+                    Accept the terms and agreements
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Leave a request</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Модельное окно для рассчета-->
+
+
+  <section class="lider" id="lider">
+    <div class="container">
+      <h2 class="lider-title">Почему выбирают нас</h2>
+      <p class="lider-text">Мы предоставляем лучший IT‑сервис в городах Казахстана</p>
+      <!--card-->
+      <div class="cards-lider">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card cards" style="max-width: 450px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../img/Icon/Untitled-1.png" class="img-fluid-card rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Профессионализм</h5>
+                    <p class="card-text">Мы решам широкий спектр вопросов, от настройки оборудования, до проведения
+                      ремонтных мероприятий</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="max-width: 450px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../img/Icon/Untitled-2.png" class="img-fluid-card rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Экономичность</h5>
+                    <p class="card-text">Снижаем Ваши затраты на содержание штата техподдержки, приобретение техники и
+                      программного обеспечения</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col cards">
+            <div class="card" style="max-width: 450px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../img/Icon/quality-check.252x256.png" class="img-fluid-card1 rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Качество</h5>
+                    <p class="card-text">Мы гарантируем высокое качество наших услуг и стремимся к долгосрочному и
+                      регулярному сотрудничеству с Вами</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="max-width: 450px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../img/Icon/graphic-chart.256x218.png" class="img-fluid-card2 rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Продуктивность</h5>
+                    <p class="card-text">Повышаем продуктивность работы Вашей компании, путем обеспечения
+                      бесперебойной
+                      работы компьютерного оборудования, а также его оптимизации</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card cards" style="max-width: 450px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../img/Icon/rocket.255x256.png" class="img-fluid-card3 rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Оперативность</h5>
+                    <p class="card-text">Оперативно реагируем на Ваши запросы и в кратчайшие сроки решаем возникающие
+                      проблемы</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="max-width: 450px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../img/Icon/Untitled-3.png" class="img-fluid-card4 rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Спокойствие</h5>
+                    <p class="card-text">Берем на себя все заботы по IT‑поддержке Вашей компании. Мы несем полную
+                      ответственность перед клиентами за проделанную работу</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.lider -->
+
+  <section class="traif" id="traif">
+    <div class="container">
+      <h2 class="traif-title">
+        Выберите подходящий Вам тариф
+      </h2>
+      <!-- /.traif-title -->
+      <div class="row">
+        <div class="card-group">
+          <div class="col-xl-4">
+            <div class="card card-price-group">
+              <h5 class="card-title-price">Эконом</h5>
+              <img src="../img/Icon/3.png" class="card-img-top" alt="...">
+              <p class="card-subtitle">Для решения базовых IT‑задач</p>
+              <hr>
+              <p class="card-price">5 000 ₸ / рабочее место</p>
+              <hr>
+              <div class="card-body">
+                <ul>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> От 5 рабочих мест</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Обслуживание ПК и
+                    офисных
+                    программ</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Удалённое решение
+                    проблем
+                  </li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> До 2‑х экстренных
+                    выездов
+                    в месяц</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Администрирование
+                    Bitrix24</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Поддержка 1‑го принтера
+                    или МФУ</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-primary btn-primary-card" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop">
+                  Оставить заявку
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="card card-price-group">
+              <h5 class="card-title-price">Оптимальный</h5>
+              <img src="../img/Icon/2.png" class="card-img-top" alt="...">
+              <p class="card-subtitle">Для решения основных IT‑задач</p>
+              <hr>
+              <p class="card-price">7 000 ₸ / рабочее место</p>
+              <hr>
+              <div class="card-body">
+                <ul>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> От 10 рабочих мест</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Обслуживание ПК и
+                    офисных
+                    программ</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Удалённое решение
+                    проблем
+                  </li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> До 4‑х экстренных
+                    выездов
+                    в месяц</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Администрирование
+                    Bitrix24</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Обслуживание 2‑х
+                    принтеров или МФУ</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Обслуживание телефонов
+                    и
+                    IP‑АТС</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Администрирование 1‑го
+                    сервера</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Поддержка работы
+                    локальной сети</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Поддержка работы Wi‑Fi
+                    сети</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-primary btn-primary-card" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop">
+                  Оставить заявку
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="card card-price-group">
+              <h5 class="card-title-price">Премиум</h5>
+              <img src="../img/Icon/1.png" class="card-img-top" alt="...">
+              <p class="card-subtitle">Для решения любых IT‑задач</p>
+              <hr>
+              <p class="card-price">10 000 ₸ / рабочее место</p>
+              <hr>
+              <div class="card-body">
+                <ul>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> От 10 рабочих мест</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Обслуживание ПК и
+                    офисных
+                    программ</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Удалённое решение
+                    проблем
+                  </li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> До 8‑ми экстренных
+                    выездов в месяц</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Доработка и
+                    Администрирование Bitrix24</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Обслуживание всех
+                    принтеров и МФУ</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Администрирование
+                    IP‑АТС
+                    и телефонов</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Администрирование
+                    физических серверов</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Поддержка работы
+                    локальной сети</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Поддержка работы Wi‑Fi
+                    сети</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Поддержка систем
+                    видеонаблюдения</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Администрирование
+                    виртуальных серверов</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Поддержка систем
+                    видеоконференцсвязи</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Администрирование
+                    почтового сервера</li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Функции IT‑директора
+                  </li>
+                  <li class="card-list"> <img src="../img/Icon/yes.png" alt="" class="price-img"> Прочие задачи</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-primary btn-primary-card" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop">
+                  Оставить заявку
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.traif -->
+
+
+
+  <section class="best" id="best">
+    <div class="container">
+      <h3 class="best-title">Чем IT‑аутсорсинг лучше?</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col-xl-6">
+          <div class="card card-best">
+            <img src="../img/Icon/admin.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title-best">Системный администратор</h5>
+              <ul>
+                <li class="best-list"> <img src="../img/Icon/work.png" alt="" class="best-list-img"> Рабочее место</li>
+                <li class="best-list"> <img src="../img/Icon/pclist.png" alt="" class="best-list-img"> Компьютерное
+                  оборудование</li>
+                <li class="best-list"> <img src="../img/Icon/money.png" alt="" class="best-list-img"> Зарплата и налоги
+                </li>
+                <li class="best-list"> <img src="../img/Icon/task.png" alt="" class="best-list-img"> Монозадачность</li>
+                <li class="best-list"> <img src="../img/Icon/report.png" alt="" class="best-list-img"> Не ведёт отчетную
+                  документацию</li>
+                <li class="best-list"> <img src="../img/Icon/book.png" alt="" class="best-list-img"> Ограниченный спектр
+                  знаний</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="card card-best">
+            <img src="../img/Icon/PC.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title-best">IT‑аутсорсинг</h5>
+              <ul>
+                <li class="best-list1"> <img src="../img/Icon/work1.png" alt="" class="best-list-img"> Не требуется
+                  рабочее место</li>
+                <li class="best-list1"> <img src="../img/Icon/help.png" alt="" class="best-list-img"> Круглосуточная
+                  поддержка</li>
+                <li class="best-list1"> <img src="../img/Icon/money1.png" alt="" class="best-list-img"> Минимальные
+                  затраты</li>
+                <li class="best-list1"> <img src="../img/Icon/task1.png" alt="" class="best-list-img"> Мультизадачность
+                </li>
+                <li class="best-list1"> <img src="../img/Icon/report1.png" alt="" class="best-list-img"> Полная отчетная
+                  документация</li>
+                <li class="best-list1"> <img src="../img/Icon/book1.png" alt="" class="best-list-img"> Опыт во всех
+                  областях IT</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.best -->
+
+  <section class="suppliers">
+    <div class="container">
+      <h3 class="title-suppliers">Наши поставщики</h3>
+      <p class="subtitile-suppliers">Тут будет слайдер с логотипами поставщиков</p>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.suppliers -->
+
+  <section class="contacts" id="contacts">
+    <div class="container-fluid">
+      <div class="wrapper">
+        <img src="../img/footer/people1.png" alt="" class="contacts-front">
+        <img src="../img/footer/people2.png" alt="" class="contacts-back">
+        <div class="container contacts-container">
+          <h5 class="contacts-title">Наши контакты</h5>
+          <p class="contacts-address"> <img src="../img/Icon/map.png" alt="" class="contacts-time-img"> Адрес</p>
+          <p class="contacts-address-ul"> <img src="../img/Icon/city.png" alt="" class="contacts-time-img1"> г.Караганда
+          </p>
+          <ul>
+            <li class="contacts-time-date1"> <img src="../img/Icon/worktime.png" alt="" class="contacts-time-img"> Режим
+              работы</li>
+            <li class="contacts-time-date2"> <img src="../img/Icon/gold-time.png" alt="" class="contacts-time-img">
+              Понедельник-Пятница с 9:00 до 18:00</li>
+            <li class="contacts-time-date3"> <img src="../img/Icon/silver-time.png" alt="" class="contacts-time-img">
+              Суббота-Воскресенье с 11:00 до 15:00</li>
+          </ul>
+
+          <ul class="contacts-nav">
+            <li class="contacts-item">
+              <a class="contacts-link1" aria-current="page" href="tel: +777855555555"> <img src="../img/Icon/phone.png"
+                  alt="" class="contacts-time-img2"> +7 778 555 55 55</a>
+            </li>
+            <li class="contacts-item">
+              <a class="contacts-link2" href="mailto: info@ito.kz"> <img src="../img/Icon/mail.png" alt=""
+                  class="contacts-time-img2"> info@ito.kz</a>
+            </li>
+          </ul>
+
+          <div class="contacts-form">
+            <h5 class="contacts-title2">Свяжитесь с нами</h5>
+            <div class="contacts-body">
+              <span class="contacts-subtitle">Чтобы получить консультацию</span>
+              <form class="form row g-3" id="form">
+                <div>
+                </div>
+                <div>
+                  <input type="Name" class="form-control form-contacts" id="validationDefault01" placeholder="Имя*"
+                    required>
+                </div>
+                <div>
+                  <input type="tel" class="form-control form-contacts" id="validationDefault02" placeholder="Телефон*"
+                    required>
+                </div>
+                <div>
+                  <input type="Email" class="form-control form-contacts" id="validationDefault03" placeholder="E-mail*"
+                    required>
+                </div>
+                <div class="form-check-contacts">
+                  <div class="form-check ">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                      Примите условия и соглашения
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary btn-contacts" type="submit">Оставить заявку</button>
+                </div>
+              </form>
+              <p class="contacts-info">© 2023 ИП «ITO» <br> Все права защищены. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+  </section>
+  <!-- /.contacts -->
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <hr>
+      <div class="container">
+        <div class="container text-center">
+          <div class="row row-cols-4">
+            <div class="col">
+              <img src="../img/logo.png" class="footer-logo" alt="">
+            </div>
+            <div class="col">
+              <ul class="footer-nav">
+                <p class="footer-nav-title">Клиентам</p>
+                <li class="footer-nav-item">
+                  <a class="footer-nav-link" href="#traif"> <img src="../img/Icon/moneyfooter.png" alt=""
+                      class="footer-img"> Тарифы</a>
+                </li>
+                <li class="footer-nav-item">
+                  <a class="footer-nav-link" href="#lider" role="button">
+                    <img src="../img/Icon/like.png" alt="" class="footer-img" style="margin-left: 50px;"> Преимущества
+                  </a>
+                </li>
+                <!--<li class="footer-nav-item">
+                  <a href="#" class="footer-nav-link"> <img src="img/Icon/shop.png" alt="" class="footer-img"
+                      style="margin-left: 75px;"> Интернет-магазин</a>
+                </li>-->
+                <li class="footer-nav-item">
+                  <a href="#" class="footer-nav-link"><img src="../img/Icon/FAQ.png" alt="" class="footer-img"
+                      style="margin-left: 81px;"> Вопросы и ответы</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="footer-nav">
+                <p class="footer-nav-title">Компания</p>
+                <li class="footer-nav-item">
+                  <a href="#" class="footer-nav-link"><img src="../img/Icon/about.png" alt="" class="footer-img"
+                      style="margin-left: 65px;"> О нас</a>
+                </li>
+                <li class="footer-nav-item">
+                  <a href="#contacts" class="footer-nav-link"> <img src="../img/Icon/contacts.png" alt=""
+                      class="footer-img" style="margin-left: 100px;"> Контакты</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="footer-nav">
+                <p class="footer-nav-title">Мы в соцсетях</p>
+                <li class="footer-nav-item">
+                  <a class="footer-nav-link" href="#traif"> <img src="../img/Icon/telegram.png" alt="" class="footer-img"
+                      style="margin-left: 75px;"> Телеграм</a>
+                </li>
+                <li class="footer-nav-item">
+                  <a class="footer-nav-link" href="#lider" role="button">
+                    <img src="../img/Icon/instagram.png" alt="" class="footer-img" style="margin-left: 76px;"> Instagram
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.container-fluid -->
+  </footer>
+  <!-- /.footer -->
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
 </html>
