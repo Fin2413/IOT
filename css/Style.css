@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -16,7 +16,7 @@ body {
     width: 100%;
 }
 
-.navbar-nav-link{
+.navbar-nav-link {
     margin-left: 80px;
 }
 
@@ -34,7 +34,7 @@ body {
     color: blue;
 }
 
-.btn-primary{
+.btn-primary {
     width: 190px;
     height: 45px;
     font-family: 'Oswald', sans-serif;
@@ -42,7 +42,7 @@ body {
     letter-spacing: 1.5px;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     transition: 0.5s;
 }
 
@@ -54,7 +54,7 @@ body {
     opacity: 0.7;
 }
 
-.modal-title{
+.modal-title {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 25px;
@@ -75,7 +75,7 @@ body {
     margin-top: 20px;
 }
 
-.form-text{
+.form-text {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -99,7 +99,7 @@ body {
     min-height: 100%;
 }
 
-.section-list{
+.section-list {
     font-family: 'Open Sans', serif;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -121,7 +121,7 @@ body {
     z-index: 10;
 }
 
-.section-img-list{
+.section-img-list {
     widows: 20px;
     height: 20px;
     margin-right: 10px;
@@ -137,7 +137,7 @@ body {
     letter-spacing: 1.5px;
 }
 
-.btn-primary-safe:hover{
+.btn-primary-safe:hover {
     transition: 0.5s;
 }
 
@@ -148,13 +148,13 @@ body {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.card-title{
+.card-title {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
 }
 
-.card-text{
+.card-text {
     font-family: 'Open Sans', serif;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -226,7 +226,7 @@ body {
     width: 120px;
 }
 
-.traif{
+.traif {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -241,14 +241,14 @@ body {
     margin-bottom: 30px;
 }
 
-.card-price-group{
+.card-price-group {
     border: 1px black solid;
     height: 960px;
     background-color: white;
     box-shadow: 5px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-.card-title-price{
+.card-title-price {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -258,12 +258,12 @@ body {
     font-size: 35px;
 }
 
-.card-img-top{
+.card-img-top {
     width: 150px;
     margin: 0 auto;
 }
 
-.card-subtitle{
+.card-subtitle {
     font-family: 'Open Sans', serif;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -272,7 +272,7 @@ body {
     text-align: center;
 }
 
-.card-price{
+.card-price {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -282,7 +282,7 @@ body {
     font-weight: 700;
 }
 
-.card-list{
+.card-list {
     font-family: 'Open Sans', serif;
     font-weight: 400;
     font-size: 14px;
@@ -291,25 +291,25 @@ body {
     margin-left: -10px;
 }
 
-.price-img{
+.price-img {
     width: 20px;
 }
 
-.card-footer{
+.card-footer {
     background-color: white;
     margin: 0 auto;
 }
 
-.btn-primary-card{
+.btn-primary-card {
     margin-bottom: 20px;
 }
 
-.best{
+.best {
     margin-top: 60px;
     margin-bottom: 30px;
 }
 
-.best-title{
+.best-title {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -318,12 +318,12 @@ body {
     font-size: 40px;
 }
 
-.card-best{
+.card-best {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.card-title-best{
+.card-title-best {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -332,7 +332,7 @@ body {
     margin-bottom: 30px;
 }
 
-.best-list{
+.best-list {
     font-family: 'Open Sans', serif;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -342,7 +342,7 @@ body {
     list-style-type: none;
 }
 
-.best-list1{
+.best-list1 {
     font-family: 'Open Sans', serif;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -352,53 +352,56 @@ body {
     list-style-type: none;
 }
 
-.best-list-img{
+.best-list-img {
     margin-top: -3px;
     margin-right: 10px;
     width: 35px;
     height: 30px;
 }
 
-.suppliers{
+.suppliers {
+    height: 250px;
     margin-top: 50px;
 }
 
-.title-suppliers{
+.title-suppliers {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
     font-size: 35px;
     text-align: center;
     font-size: 40px;
+    margin-bottom: 40px;
 }
 
-.subtitile-suppliers{
+.subtitile-suppliers {
     text-align: center;
     font-size: 40px;
 }
 
-.wrapper{
+.wrapper {
     position: relative;
 }
 
-.contacts{
-    margin-top: -20px;
+.contacts {
+    margin-top: -30px;
 }
 
-.contacts-front{
+.contacts-front {
     position: absolute;
     left: 620px;
     top: 150px;
     width: 200px;
     z-index: 3;
 }
-.contacts-back{
+
+.contacts-back {
     position: absolute;
     max-width: 100%;
     z-index: 1;
 }
 
-.contacts-title{
+.contacts-title {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -409,7 +412,7 @@ body {
     z-index: 2;
 }
 
-.contacts-address{
+.contacts-address {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -420,7 +423,7 @@ body {
     z-index: 2;
 }
 
-.contacts-address-ul{
+.contacts-address-ul {
     font-family: 'Open Sans', serif;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -431,7 +434,7 @@ body {
     z-index: 2;
 }
 
-.contacts-time-date1{
+.contacts-time-date1 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -443,7 +446,7 @@ body {
     list-style-type: none;
 }
 
-.contacts-time-date2{
+.contacts-time-date2 {
     font-family: 'Open Sans', serif;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -455,28 +458,28 @@ body {
     list-style-type: none;
 }
 
-.contacts-time-img{
+.contacts-time-img {
     margin-top: -5px;
     width: 24px;
     height: 24px;
     margin-right: 5px;
 }
 
-.contacts-time-img1{
+.contacts-time-img1 {
     margin-top: -5px;
     width: 20px;
     height: 26px;
     margin-right: 5px;
 }
 
-.contacts-time-img2{
+.contacts-time-img2 {
     margin-top: -3px;
     width: 24px;
     height: 24px;
     margin-right: 5px;
 }
 
-.contacts-time-date3{
+.contacts-time-date3 {
     font-family: 'Open Sans', serif;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -488,7 +491,7 @@ body {
     list-style-type: none;
 }
 
-.contacts-link1{
+.contacts-link1 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -500,12 +503,12 @@ body {
     color: black;
 }
 
-.contacts-link1:hover{
+.contacts-link1:hover {
     transition: 0.5s;
     color: blue;
 }
 
-.contacts-link2{
+.contacts-link2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -517,12 +520,12 @@ body {
     color: black;
 }
 
-.contacts-link2:hover{
+.contacts-link2:hover {
     transition: 0.5s;
     color: blue;
 }
 
-.contacts-title2{
+.contacts-title2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -533,28 +536,28 @@ body {
     z-index: 2;
 }
 
-.contacts-body{
+.contacts-body {
     position: absolute;
     top: 550px;
     left: 1070px;
     z-index: 2;
 }
 
-.contacts-subtitle{
+.contacts-subtitle {
     font-family: 'Open Sans', serif;
     font-weight: 600;
     letter-spacing: 1.5px;
     margin-left: 30px;
 }
 
-.contacts-footer{
+.contacts-footer {
     position: absolute;
     top: 830px;
     left: 1150px;
     z-index: 2;
 }
 
-.contacts-info{
+.contacts-info {
     font-family: 'Open Sans', serif;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -565,35 +568,35 @@ body {
     z-index: 3;
 }
 
-.footer{
+.footer {
     margin-top: 1280px;
     margin-bottom: 30px;
 }
 
-.footer-img{
+.footer-img {
     width: 20px;
     margin-left: -16px;
     margin-right: 10px;
     margin-bottom: 10px;
 }
 
-.footer-nav-title{
+.footer-nav-title {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
     font-size: 20px;
 }
 
-.footer-nav-link:hover{
+.footer-nav-link:hover {
     transition: 0.5s;
     color: blue;
 }
 
-.footer-nav-item{
+.footer-nav-item {
     list-style-type: none;
 }
 
-.footer-nav-link{
+.footer-nav-link {
     font-family: 'Open Sans', serif;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -602,26 +605,26 @@ body {
     text-decoration: none;
 }
 
-.footer-logo{
+.footer-logo {
     margin-top: 30px;
     width: 250px;
 }
 
-.modal-title-calc{
+.modal-title-calc {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
     margin-left: 45px;
 }
 
-.modal-body-calc{
+.modal-body-calc {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
     text-align: center;
 }
 
-.modal-body-calc1{
+.modal-body-calc1 {
     font-family: 'Open Sans', serif;
     font-weight: 400;
     letter-spacing: 1.5px;
@@ -630,34 +633,34 @@ body {
     margin-bottom: -10px;
 }
 
-.form-control-calc2{
+.form-control-calc2 {
     margin-bottom: -20px;
 }
 
-.form-control-calc{
+.form-control-calc {
     font-family: 'Open Sans', serif;
     font-weight: 400;
     letter-spacing: 1.5px;
 }
 
-.form-check{
-    align-items:center;
+.form-check {
+    align-items: center;
 }
 
-.form-check{
+.form-check {
     margin-left: 120px;
 }
 
-.form-check-input{
+.form-check-input {
     border: 1px black solid;
 }
 
-.btn-secondary{
+.btn-secondary {
     height: 45px;
     margin-left: 50px;
 }
 
-.best-btn{
+.best-btn {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -665,48 +668,66 @@ body {
     text-decoration: none;
 }
 
-.best-btn:hover{
+.best-btn:hover {
     transition: 0.5s;
     color: #fff;
 }
 
-.form-contacts{
+.form-contacts {
     width: 350px;
     margin-bottom: -15px;
 }
 
-.form-check-contacts{
+.form-check-contacts {
     margin-top: 30px;
     margin-left: -70px;
 }
 
-.btn-contacts{
+.btn-contacts {
     margin-left: 80px;
 }
 
-.form-check-calc{
+.form-check-calc {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.form-check-box{
+.form-check-box {
     margin-left: -90px;
 }
 
-.form-check-box1{
+.form-check-box1 {
     margin-left: -100px;
 }
 
-.btn-drop{
+.btn-drop {
     width: 55px;
     height: 40px;
     border: none;
 }
 
-.drop{
+.drop {
     width: 50px;
 }
 
-.btn-primary-leave{
+.btn-primary-leave {
     margin-left: 150px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
