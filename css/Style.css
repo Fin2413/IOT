@@ -364,6 +364,10 @@ body {
     margin-top: 50px;
 }
 
+.suppliers-xs{
+    display: none;
+}
+
 .title-suppliers {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
@@ -730,4 +734,8 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.suppliers-xs{
+    display: none;
 }

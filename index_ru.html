@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style_grid.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar bg-light fixed-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col"><a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"
+                                    class="navbar-logo"></a></div>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="col">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-drop dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="img/Icon/ru.png" alt="" class="nav-link-lang">
+                            </button>
+                            <ul class="dropdown-menu" style="--bs-dropdown-min-width: 2rem">
+                                <li><a class="dropdown-item"" href=" en/index.html"><img src="img/Icon/usa.png" alt=""
+                                            class="nav-link-lang"></a></li>
+                                <li><a class="dropdown-item"" href=" kz/Index.html"><img src="img/Icon/kz.png" alt=""
+                                            class="nav-link-lang"></a></li>
+                                <li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col nav-xs"><a class="nav-link" aria-current="page" href="tel: +777855555555"><img
+                                src="img/Icon/phone.png" alt="" class="contacts-time-img"> +7 778 555 55 55</a></div>
+                    <div class="col nav-xs"> <a class="nav-link" href="mailto: info@ito.kz"> <img
+                                src="img/Icon/mail.png" alt="" class="contacts-time-img"> info@ito.kz</a></div>
+                    <div class="col nav-xs"> <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            Оставить заявку
+                        </button></div>
+
+                    <!--offcanvas-menu-->
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"
+                                    class="navbar-logo"></a>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#traif">Тарифы</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#lider" role="button">
+                                        Преимущества
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">О нас</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#contacts" class="nav-link">Контакты</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Интернет-магазин</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item" style="margin-top: 20px;">
+                                    <a class="nav-link" aria-current="page" href="tel: +777855555555"><img
+                                            src="img/Icon/phone.png" alt="" class="contacts-time-img"> +7 778 555 55
+                                        55</a>
+                                </li>
+                                <li class="nav-item" style="margin-top: 10px;">
+                                    <a class="nav-link" href="mailto: info@ito.kz"> <img src="img/Icon/mail.png" alt=""
+                                            class="contacts-time-img"> info@ito.kz</a>
+                                </li>
+                                <li class="nav-item" style="margin-top: 30px;">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#staticBackdrop">
+                                        Оставить заявку
+                                    </button>
+                                </li>
+                            </ul>
+                            <p style="margin-top: 40px;">© 2023 ИП «ITO» Все права защищены. </p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </nav>
+        </div>
+    </header>
+    <!-- /.header -->
+
+    <!--заглавная секция-->
+    <section class="section">
+        <div class="container">
+            <div class="row section-row">
+                <div class="col">
+                    <img src="img/image/18907-1.png" alt="" class="section-img">
+                </div>
+
+                <div class="col-8">
+                    <h1 class="section-title">IT‑аутсорсинг и <br class="section-br"> обслуживание офисов</h1>
+                    <ul>
+                        <li class="section-list"> <img src="img/Icon/yes.png" alt="" class="section-img-list">
+                            Оперативное
+                            решение
+                            IT‑проблем</li>
+                        <li class="section-list"> <img src="img/Icon/yes.png" alt="" class="section-img-list"> Разовое и
+                            регулярное
+                            обслуживание техники</li>
+                        <li class="section-list"> <img src="img/Icon/yes.png" alt="" class="section-img-list"> Выезд и
+                            удалённое
+                            обслуживание</li>
+                        <li class="section-list"> <img src="img/Icon/yes.png" alt="" class="section-img-list"> Подходит
+                            для
+                            малых и
+                            средних компаний</li>
+                    </ul>
+                </div>
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-xl-3 col-md-8 col-xs-12 col-sm-3">
+                            <img src="img/Icon/rocket.255x256.png" class="img-fluid rounded-start" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Оперативность</h5>
+                                <p class="card-text card-text-one">Оперативно решаем задачи и проблемы</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-8 col-xs-12 col-sm-3">
+                            <img src="img/Icon/medal-gold-winner-2.247x256.png" class="img-fluid rounded-start"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Актуальность</h5>
+                                <p class="card-text card-text-one">Используем лидирующие решения IT‑обслуживания</p>
+                            </div>
+                        </div>
+
+                        <!-- Force next columns to break to new line -->
+                        <div class="w-100"></div>
+
+                        <div class="ol-xl-3 col-md-8 col-xs-12 col-sm-3">
+                            <img src="img/Icon/pound-coin.256x245.png" class="img-fluid rounded-start" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Цена и качество</h5>
+                                <p class="card-text card-text-one">Цена и качество Вы экономите на оборудовании и
+                                    услугах</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section -->
+
+
+    <!--Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
