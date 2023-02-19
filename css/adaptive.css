@@ -35,4 +35,26 @@
     .section-br{
         display: none;
     }
+
+    .btn-section{
+        margin-left: -50px;
+        margin-top: 20px;
+    }
+    
+    .btn-section-one{
+        margin-left: -80px;
+        margin-top: 20px;
+    }
+
+    .container-lider{
+        margin-top: -100px;
+    }
+
+    .row-li{
+        margin: 0 auto;
+    }
+
+    .img-fluid-li{
+        width: 50%;
+    }
 }
