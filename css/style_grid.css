@@ -3,147 +3,183 @@
     margin: 0;
 }
 
-.header{
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #00c6fb, #005bea);
+}
+
+.header {
     margin-top: 10px;
 }
 
-.navbar-logo{
+.navbar-logo {
     widows: 100px;
     height: 50px;
 }
 
-.contacts-time-img{
+.contacts-time-img {
     width: 25px;
     height: 25px;
 }
 
-.navbar-brand{
+.navbar-brand {
     margin-right: 20px;
 }
 
-.btn-group{
+.btn-group {
     margin-left: 20px;
 }
 
-.nav-link-lang{
+.nav-link-lang {
     width: 20px;
     height: 20px;
 }
 
-.section-row{
+.section-row {
     position: relative;
 }
 
-.section-img{
+.section-img {
     margin-top: 80px;
     margin-left: 550px;
     padding: 0;
     z-index: 0;
 }
 
-.section-title{
+.section-title {
     font-size: 50px;
     margin-left: 20px;
     margin-top: -600px;
     z-index: 2;
 }
 
-.section-list{
+.section-list {
     font-size: 20px;
     list-style-type: none;
     margin-top: 10px;
 }
 
-.section-img-list{
+.section-img-list {
     width: 24px;
 }
 
-.img-fluid{
+.img-fluid {
     width: 25%;
     margin-bottom: 20px;
 }
 
-.card-body{
+.card-body {
     margin-bottom: 20px;
 }
 
-.card-title{
+.card-title {
     margin-bottom: 10px;
 }
 
-.card-text{
+.card-text {
     margin-bottom: 20px;
 }
 
-.container-lider{
+.container-lider {
     margin-top: -200px;
 }
 
-.btn-section{
+.btn-section {
     margin-left: 20px;
     text-decoration: none;
 }
 
-.btn-section-one{
+.btn-section-one {
     margin-left: 20px;
 }
 
-.best-btn{
+.best-btn {
     padding: 10px;
     text-decoration: none;
 }
 
-.best-btn:hover{
+.best-btn:hover {
     transition: 0.5s;
     color: #fff;
 }
 
-.section-lider{
+.section-lider {
     margin-top: 25px;
     margin-bottom: 50px;
 }
 
-.lider-title{
+.lider-title {
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-.lider-subtitle{
+.lider-subtitle {
     margin-bottom: 20px;
 }
 
-.img-fluid-li{
+.img-fluid-li {
     margin-top: 20px;
     width: 75%;
 }
 
-.row-li{
+.row-li {
     margin-left: 50px;
 }
 
-.card{
+.card {
     border: none;
 }
 
-.price-img{
+.price-img {
     width: 25px;
     height: 25px;
 }
 
-.tarif{
-    margin-top: 30px;
+.tarif {
+    margin-top: 50px;
     text-align: center;
+    margin-bottom: 30px;
+    background-image: url(../img/image/1.png);
 }
 
-.tarif-title{
+.card-list {
+    list-style-type: none;
+    text-align: left;
+}
+
+.tarif-title {
     margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
-.card-tarif{
+.work-title {
+    margin-bottom: 40px;
+}
+
+.card-tarif {
     border: 1px solid black;
+    box-shadow: 5px 0px 10px gray;
 }
 
-.card-img-top{
+.card-img-top {
     margin: 0 auto;
     width: 50%;
+}
+
+.section-work {
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-image: url(../img/image/fon.png);
 }
