@@ -57,4 +57,22 @@
     .img-fluid-li{
         width: 50%;
     }
+
+    .best-img{
+        display: none;
+    }
+
+    .img-title{
+        width: 150px;
+        margin-left: 100px;
+    }
+
+    .best-ul{
+        width: 290px;
+    }
+
+    .img-title-a{
+        margin-left: -10px;
+    }
+
 }

@@ -183,3 +183,65 @@ body::-webkit-scrollbar-thumb {
     margin-bottom: 40px;
     background-image: url(../img/image/fon.png);
 }
+
+.section-best{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.img-title{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.best-img{
+    margin-top: 100px;
+    width: 50%;
+    opacity: 0.5;
+}
+
+.best-list-img{
+    width: 30px;
+    height: 30px;
+}
+
+.best-title{
+    margin-bottom: 20px;
+}
+
+.best-list{
+    margin-top: 10px;
+    list-style-type: none;
+    text-align: left;
+}
+
+.best-list1{
+    margin-top: 10px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.section-supply{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.supply-title{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.supply-item{
+    margin-right: 10%;
+    width: 150px;
+    height: 20%;
+    display: inline;
+}
+
+.contacts{
+    margin-top: 50px;
+    width: 100%;
+    background: url(../img/image/people2.png) no-repeat;
+}
